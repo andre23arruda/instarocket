@@ -1,0 +1,23 @@
+.feed-container {
+    max-width: 980px;
+    margin: 80px auto 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 80vh;
+    justify-content: space-between;
+
+    .posts-list {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+    }
+
+    @media(max-width: 600px) {
+        width: 90%;
+
+        .page-footer {
+            margin: 50px 10px;
+        }
+    }
+}

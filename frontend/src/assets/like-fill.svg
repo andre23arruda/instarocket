@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="23px"
+   height="22px"
+   viewBox="0 0 23 22"
+   version="1.1"
+   id="svg12"
+   sodipodi:docname="like-fill.svg"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs16" />
+  <sodipodi:namedview
+     id="namedview14"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="18.727273"
+     inkscape:cx="1.7888349"
+     inkscape:cy="5.2597086"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg12" />
+  <!-- Generator: Sketch 55 (78076) - https://sketchapp.com -->
+  <title
+     id="title2">Like</title>
+  <desc
+     id="desc4">Created with Sketch.</desc>
+  <g
+     id="Web"
+     stroke="none"
+     stroke-width="1"
+     fill="none"
+     fill-rule="evenodd"
+     style="stroke:#af2a32;stroke-opacity:1;fill:#af2a32;fill-opacity:1">
+    <g
+       id="Home"
+       transform="translate(-449,-713)"
+       stroke="#000000"
+       stroke-width="1.44"
+       style="stroke:#af2a32;stroke-opacity:1;fill:#af2a32;fill-opacity:1">
+      <g
+         id="Group-3"
+         transform="translate(430,102)"
+         style="stroke:#af2a32;stroke-opacity:1;fill:#af2a32;fill-opacity:1">
+        <g
+           id="Group-2"
+           transform="translate(0,20)"
+           style="stroke:#af2a32;stroke-opacity:1;fill:#af2a32;fill-opacity:1">
+          <g
+             id="Like,-comment,-send,-collect"
+             transform="translate(20,583)"
+             style="stroke:#af2a32;stroke-opacity:1;fill:#af2a32;fill-opacity:1">
+            <path
+               d="M 10.448395,29.0625 8.9333774,27.674046 C 3.5524542,22.737908 0,19.480586 0,15.494721 0,12.237398 2.5232873,9.6875 5.746617,9.6875 c 1.8180207,0 3.5629025,0.855245 4.701778,2.201465 1.138875,-1.34622 2.883757,-2.201465 4.701777,-2.201465 3.22333,0 5.746617,2.549898 5.746617,5.807221 0,3.985865 -3.552454,7.243187 -8.933377,12.179325 z"
+               id="Like"
+               style="stroke:#af2a32;stroke-opacity:1;fill:#af2a32;fill-opacity:1" />
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+  <metadata
+     id="metadata833">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>Like</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

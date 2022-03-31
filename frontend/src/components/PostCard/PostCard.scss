@@ -1,0 +1,82 @@
+.post {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border: 1px solid rgb(233, 233, 233);
+    margin: 20px 0;
+    padding: 20px 0;
+    border-radius: 5px;
+
+    .icon {
+        transition: 0.2s;
+
+        &:hover {
+            cursor: pointer;
+            filter: brightness(0.85);
+            transform: translateY(-1px);
+        }
+    }
+
+    header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0 20px 20px;
+
+        .author-info {
+            display: flex;
+            flex-direction: column;
+
+            .author {
+                font-weight: 500;
+            }
+
+            .place {
+                color: darkgray;
+            }
+        }
+    }
+
+    .post-img {
+        width: 500px;
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: row;
+        margin: 20px 20px 10px;
+
+        button {
+            border: none;
+            margin-right: 10px;
+            background-color: transparent;
+        }
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+
+        .likes-count {
+            font-weight: 600;
+            margin-bottom: 3px;
+        }
+        .description {
+            color: darkgray;
+            margin-bottom: 3px;
+        }
+        .hashtags {
+            color: #82729a;
+        }
+    }
+
+    @media(max-width: 600px) {
+        margin: 10px 0;
+        width: 100%;
+
+        .post-img {
+            width: 100%;
+        }
+    }
+}

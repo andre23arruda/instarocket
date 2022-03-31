@@ -1,0 +1,31 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
+    padding: 25px 0px;
+    top: 0;
+
+    .icons-container {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 980px;
+        padding: 0 30px;
+    }
+
+    .icon {
+        height: 30px;
+        transition: 0.2s;
+
+        &:hover {
+            cursor: pointer;
+            filter: brightness(0.85);
+            transform: translateY(-2px);
+        }
+    }
+}

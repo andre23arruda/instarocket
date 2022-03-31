@@ -1,0 +1,53 @@
+.new-post-container {
+    max-width: 980px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    justify-content: space-between;
+
+    .new-post {
+        display: flex;
+        flex-direction: column;
+        padding: 50px;
+        margin-top: 150px;
+        width: 80%;
+        background-color: #fff;
+        border-radius: 5px;
+
+        input {
+            font-size: 12pt;
+        }
+
+        input, button {
+            padding: 15px;
+            margin: 5px;
+            border: 1px solid rgb(233, 233, 233);
+            border-radius: 5px;
+        }
+
+        button {
+            background-color: #7259c1;
+            color: #fff;
+            font-weight: bold;
+            transition: 0.2s;
+            font-size: 15pt;
+
+            &:hover {
+                cursor: pointer;
+                filter: brightness(0.9);
+            }
+
+        }
+
+        @media(max-width: 600px) {
+            padding: 30px;
+            width: 95%;
+        }
+    }
+
+    @media(max-width: 600px) {
+        width: 90%;
+    }
+}
