@@ -12,9 +12,8 @@ class PostSerializer(serializers.ModelSerializer):
     liked_by_user = serializers.SerializerMethodField()
     def get_liked_by_user(self, obj):
         request = self.context['request']
-        token = request.headers.get('Authorization')
         user = request.user
-        return obj.liked_by_user(token, user)
+        return obj.liked_by_user(user)
 
     class Meta:
         model = PostModel

@@ -122,6 +122,7 @@ REST_FRAMEWORK = {
     ),
     'DEFAULT_VERSIONING_CLASS': 'rest_framework.versioning.QueryParameterVersioning',
 }
+REST_USE_JWT = True
 
 # CORS
 CORS_ORIGIN_ALLOW_ALL = False
