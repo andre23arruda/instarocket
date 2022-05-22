@@ -16,38 +16,10 @@ class UserCreateView(generics.CreateAPIView):
     authentication_classes = []
 
 
-class OauthPostsViewSet(viewsets.ModelViewSet):
-    '''API endpoint that allows Post to be viewed or edited.'''
-    serializer_class = PostSerializer
-    http_method_names = ['get', 'post', 'patch']
-    parser_classes = [MultiPartParser, FormParser, JSONParser]
-
-    def get_queryset(self, *args, **kwargs):
-        queryset = []
-        token = self.request.headers.get('Authorization')
-        if token:
-            queryset = PostModel.objects.all().order_by('-created_at')
-        return queryset
-
-    def get_serializer_context(self):
-        context = super(OauthPostsViewSet, self).get_serializer_context()
-        context.update({'request': self.request})
-        return context
-
-    @action(detail=True, methods=['get'])
-    def like(self, request, *args, **kwargs):
-        '''Like em Post'''
-        token = request.headers.get('Authorization')
-        instance = self.get_object()
-        liked = instance.add_like(token, request.user)
-        return Response({'liked': liked})
-
-
 class PostsViewSet(viewsets.ModelViewSet):
     '''API endpoint that allows Post to be viewed or edited.'''
     authentication_classes = [
         authentication.SessionAuthentication,
-        authentication.TokenAuthentication,
         JSONWebTokenAuthentication,
     ]
     http_method_names = ['get', 'post', 'patch']
