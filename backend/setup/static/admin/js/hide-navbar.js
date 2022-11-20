@@ -5,5 +5,5 @@ document.addEventListener("DOMContentLoaded", function() {
             node.style.setProperty('transition', '0.1s')
             node.style.setProperty('opacity', '1')
         }
-    }, 0.1);
-});
+    }, 0.1)
+})

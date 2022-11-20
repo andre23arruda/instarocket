@@ -10,6 +10,9 @@ english.DATE_FORMAT = 'd/m/Y'
 
 @admin.register(PostModel)
 class PostRegister(admin.ModelAdmin):
+    class Media:
+        js = ['admin/js/progressbar.js']
+
     autocomplete_fields = ['likes']
     list_display = ['id', 'author', 'created_at', 'place', 'likes_count']
     list_display_links = ['id', 'author']

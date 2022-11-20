@@ -1,4 +1,4 @@
-const options = {
+var options = {
     mixColor: '#fff', // default: '#fff'
     backgroundColor: 'transparent',  // default: '#fff'
     buttonColorDark: '#2f2f2fc1',  // default: '#100f2c'
